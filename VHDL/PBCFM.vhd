@@ -39,6 +39,7 @@ entity PBCFM is
 			nCRTOE_p	: in  std_logic;
 			nCART_p	: out std_logic;
 			nRSTG_p  : out std_logic;
+			nRSTS_p	: out	std_logic;
 			
 			--non z80 signals
 			HSCLK_p	: in  std_logic;
@@ -46,7 +47,6 @@ entity PBCFM is
 			
 			--YM2413 control signals
 			SEN_p		: out std_logic;
-			nYMWE_p	: out std_logic;
 			nYMCS_p	: out std_logic;
 			nYMIC_p	: out std_logic;
 			
@@ -130,11 +130,10 @@ begin
 	
 	--reset signal from reset generator into HRST of Genesis
 	nRSTG_p <= nRST_p;
+	nRSTS_p <= nRST_p;
 
 	--*************** YM2413 SECTION ***************
 	--YM2413 signals
-	--nYMWE_p <= nWR_p when nRST_p = '1' else '1';
-	nYMWE_p <= '0';
 	nYMIC_p <= nRST_p;
 	nYMCS_p <= nfmcs_s when nRST_p = '1' else '1';
 

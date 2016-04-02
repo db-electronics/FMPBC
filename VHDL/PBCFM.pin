@@ -102,6 +102,6 @@ nRD_p                        : 38        : input  : 3.3-V LVTTL       :         
 nRST_p                       : 39        : input  : 3.3-V LVTTL       :         :           : Y              
 FMEN_p                       : 40        : input  : 3.3-V LVTTL       :         :           : Y              
 VCCINT                       : 41        : power  :                   : 3.3V    :           :                
-nYMWE_p                      : 42        : output : 3.3-V LVTTL       :         :           : Y              
+nRSTS_p                      : 42        : output : 3.3-V LVTTL       :         :           : Y              
 nYMCS_p                      : 43        : output : 3.3-V LVTTL       :         :           : Y              
 nYMIC_p                      : 44        : output : 3.3-V LVTTL       :         :           : Y              

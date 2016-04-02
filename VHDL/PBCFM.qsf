@@ -72,7 +72,6 @@ set_location_assignment PIN_27 -to DATA_p[5]
 set_location_assignment PIN_39 -to nRST_p
 set_location_assignment PIN_14 -to ADDR_p[4]
 set_location_assignment PIN_35 -to nCART_p
-set_location_assignment PIN_42 -to nYMWE_p
 set_location_assignment PIN_33 -to DATA_p[3]
 set_location_assignment PIN_18 -to ADDR_p[2]
 set_location_assignment PIN_10 -to nCRTOE_p
@@ -87,3 +86,4 @@ set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Trunk/FPGAProjects/PBCFM/Firmware/sim/PBCFMmode2.vwf"
 set_location_assignment PIN_3 -to nRSTG_p
 set_location_assignment PIN_40 -to FMEN_p
+set_location_assignment PIN_42 -to nRSTS_p

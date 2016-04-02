@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EPM3032AT44) Path("E:/Git/FMPBC/VHDL/") File("PBCFM.pof") MfrSpec(OpMask(19));
+		Device PartName(EPM3032AT44) Path("W:/Git/FMPBC/VHDL/") File("PBCFM.pof") MfrSpec(OpMask(19));
 
 ChainEnd;
 
