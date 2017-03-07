@@ -1,14 +1,24 @@
---*************************************************************
+-- 
+--    Title:          PBCFM.vhd
+--    Author:         René Richard
+--    Description:
+--        
+--    Target Hardware:
+--        FM Power Base
+-- LICENSE
+-- 
+--    This file is part of FM Power Base.
+--    FM Power Base is free software: you can redistribute it and/or modify
+--    it under the terms of the GNU General Public License as published by
+--    the Free Software Foundation, either version 3 of the License, or
+--    (at your option) any later version.
+--    FM Power Base is distributed in the hope that it will be useful,
+--    but WITHOUT ANY WARRANTY; without even the implied warranty of
+--    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+--    GNU General Public License for more details.
+--    You should have received a copy of the GNU General Public License
+--    along with FM Power Base.  If not, see <http://www.gnu.org/licenses/>.
 --
---  $Rev:: 258                                            $:  Revision of last commit
---  $Author:: reneleonrichard                             $:  Author of last commit
---  $Date:: 2014-08-05 16:08:48 -0400 (Tue, 05 Aug 2014)  $:  Date of last commit
---  $HeadURL: https://subversion.assembla.com/svn/db_repository/trunk/FPGAProjects/PBCFM/Firmware/PBCFM.vhd $
---
---*************************************************************
---  Copyright 2014 Rene Richard
---  DEVICE : EPM3032ATC44-10
---*************************************************************
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
