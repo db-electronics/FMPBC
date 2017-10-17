@@ -14,7 +14,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# FMPBC
+# Description
 The FMPBC (Frequency Modulation Power Base Converter) allows Sega Master System games to be played on Sega Genesis / Megadrive. It also adds YM2413 support to Sega Master System games which support it.
 
 # Requirements
